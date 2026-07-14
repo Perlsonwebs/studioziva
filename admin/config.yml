@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# היכן נשמרות התמונות שזיוה מעלה
+media_folder: "media"
+public_folder: "/media"
+
+locale: "he"
+
+collections:
+  - name: "gallery"
+    label: "גלריה"
+    label_singular: "תמונה"
+    description: "התמונות שמופיעות בקרוסלת הגלריה באתר"
+    files:
+      - name: "gallery_items"
+        label: "תמונות הגלריה"
+        file: "media/gallery.json"
+        fields:
+          - name: "items"
+            label: "תמונות"
+            label_singular: "תמונה"
+            widget: "list"
+            fields:
+              - { name: "name", label: "שם / כיתוב", widget: "string" }
+              - { name: "image", label: "תמונה", widget: "image" }
