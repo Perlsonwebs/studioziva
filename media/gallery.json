@@ -9,6 +9,10 @@
       "image": "media/g-windmill.jpg"
     },
     {
+      "name": "מבט מקרוב",
+      "image": "media/g-closeup.jpg"
+    },
+    {
       "name": "זר אדום",
       "image": "media/g-red.jpg"
     },
@@ -33,13 +37,8 @@
       "image": "media/g-chair.jpg"
     },
     {
-      "name": "מבט מקרוב",
-      "image": "media/g-closeup.jpg"
-    },
-    {
       "name": "ליד החלון",
       "image": "media/g-window.jpg"
-    },
-    {}
+    }
   ]
 }
