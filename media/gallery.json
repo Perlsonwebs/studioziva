@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "name": "בין העמודים",
+      "image": "media/g-column.jpg"
+    },
+    {
+      "name": "כלה מול טחנת הרוח",
+      "image": "media/g-windmill.jpg"
+    },
+    {
+      "name": "זר אדום",
+      "image": "media/g-red.jpg"
+    },
+    {
+      "name": "זר לבן בגן",
+      "image": "media/g-garden.jpg"
+    },
+    {
+      "name": "מבט מהגב עם הינומה",
+      "image": "media/g-veil.jpg"
+    },
+    {
+      "name": "רגע של שקט",
+      "image": "media/g-bouquet.jpg"
+    },
+    {
+      "name": "נזר פנינים",
+      "image": "media/g-tiara.jpg"
+    },
+    {
+      "name": "על הכיסא האדום",
+      "image": "media/g-chair.jpg"
+    },
+    {
+      "name": "מבט מקרוב",
+      "image": "media/g-closeup.jpg"
+    },
+    {
+      "name": "ליד החלון",
+      "image": "media/g-window.jpg"
+    }
+  ]
+}
