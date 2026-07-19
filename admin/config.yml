@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# היכן נשמרות התמונות שזיוה מעלה
+media_folder: "media"
+public_folder: "/media"
+
+locale: "he"
+
+collections:
+  - name: "gallery"
+    label: "גלריה"
+    label_singular: "פריט"
+    description: "התמונות והסרטונים שמופיעים בקרוסלת הגלריה באתר. לסרטונים: מומלץ עד 15 שניות, איכות 720p — קבצים גדולים יאטו את האתר!"
+    files:
+      - name: "gallery_items"
+        label: "פריטי הגלריה"
+        file: "media/gallery.json"
+        fields:
+          - name: "items"
+            label: "פריטים"
+            label_singular: "פריט"
+            widget: "list"
+            fields:
+              - { name: "name", label: "שם / כיתוב", widget: "string" }
+              - { name: "image", label: "תמונה (אם זה פריט תמונה)", widget: "image", required: false }
+              - { name: "video", label: "סרטון (אם זה פריט סרטון — עד 15 שניות!)", widget: "file", required: false, hint: "מומלץ סרטון קצר עד 15 שניות באיכות 720p. סרטון כבד יאט את האתר לכל המבקרות." }
