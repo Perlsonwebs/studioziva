@@ -51,6 +51,10 @@
     {
       "image": "/media/photo_5974208503133966372_w.jpg",
       "name": "מבט לצד"
+    },
+    {
+      "video": "/media/hero-v2.mp4",
+      "name": "סרטון בדיקה"
     }
   ]
 }
