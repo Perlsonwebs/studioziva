@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "media"
+public_folder: "/media"
+
+locale: "he"
+
+collections:
+  - name: "gallery"
+    label: "גלריית תמונות"
+    label_singular: "תמונה"
+    description: "התמונות שמופיעות בקרוסלת הגלריה באתר (תמונות בלבד)"
+    files:
+      - name: "gallery_items"
+        label: "תמונות הגלריה"
+        file: "media/gallery.json"
+        fields:
+          - name: "items"
+            label: "תמונות"
+            label_singular: "תמונה"
+            widget: "list"
+            fields:
+              - { name: "name", label: "שם / כיתוב", widget: "string" }
+              - { name: "image", label: "תמונה", widget: "image" }
+
+  - name: "videos"
+    label: "סרטונים"
+    label_singular: "סרטון"
+    description: "סרטונים שמופיעים באזור ההמלצות (מתחת ל'כלות שכבר יצאו מכאן מוכנות'). חשוב: סרטונים קצרים בלבד — עד 15 שניות! סרטון כבד ייכשל בהעלאה ויאט את האתר."
+    files:
+      - name: "video_items"
+        label: "סרטוני האתר"
+        file: "media/videos.json"
+        fields:
+          - name: "items"
+            label: "סרטונים"
+            label_singular: "סרטון"
+            widget: "list"
+            fields:
+              - { name: "name", label: "שם / כיתוב", widget: "string" }
+              - { name: "video", label: "קובץ סרטון (עד 15 שניות!)", widget: "file", hint: "סרטון קצר עד 15 שניות. קובץ מעל ~5MB עלול להיכשל בהעלאה." }
