@@ -1,11 +1,11 @@
 {
   "items": [
     {
-      "name": "בדרך לחופה",
+      "name": "בין העמודים",
       "image": "media/g-column.jpg"
     },
     {
-      "name": "חלום לבן",
+      "name": "כלה מול טחנת הרוח",
       "image": "media/g-windmill.jpg"
     },
     {
@@ -13,7 +13,7 @@
       "image": "media/g-closeup.jpg"
     },
     {
-      "name": "אצולה",
+      "name": "זר אדום",
       "image": "media/g-red.jpg"
     },
     {
@@ -21,11 +21,11 @@
       "image": "media/g-garden.jpg"
     },
     {
-      "name": "מבט מהגב ",
+      "name": "מבט מהגב עם הינומה",
       "image": "media/g-veil.jpg"
     },
     {
-      "name": "קלאסיקה",
+      "name": "רגע של שקט",
       "image": "media/g-bouquet.jpg"
     },
     {
@@ -33,7 +33,7 @@
       "image": "media/g-tiara.jpg"
     },
     {
-      "name": "מבט לאופק",
+      "name": "על הכיסא האדום",
       "image": "media/g-chair.jpg"
     },
     {
@@ -41,32 +41,36 @@
       "image": "media/g-window.jpg"
     },
     {
-      "image": "/media/photo_5974208503133966370_w.jpg",
-      "name": "קסם של נפח"
+      "name": "בין העצים",
+      "image": "media/g-tree-bouquet.jpg"
     },
     {
-      "image": "/media/photo_5974208503133966371_w.jpg",
-      "name": "נסיכה לרגע"
+      "name": "תחרה פורחת",
+      "image": "media/g-lace-seated.jpg"
     },
     {
-      "image": "/media/photo_5974208503133966372_w.jpg",
-      "name": "מבט לצד"
+      "name": "שובל טול",
+      "image": "media/g-back-tulle.jpg"
     },
     {
-      "name": "תחרה בלבן",
-      "image": "/media/photo_2_2026-07-28_11-07-15.jpg"
+      "name": "רגע בטבע",
+      "image": "media/g-tree-standing.jpg"
     },
     {
-      "name": "מול המראה",
-      "image": "/media/photo_5_2026-07-28_11-07-15.jpg"
+      "name": "נסיכה בסטודיו",
+      "image": "media/g-studio-tulle.jpg"
     },
     {
-      "name": "Hinuma ",
-      "image": "/media/img-20260810-wa0004.jpg"
+      "name": "שובל מלכותי",
+      "image": "media/g-mirror-train.jpg"
     },
     {
-      "name": "מבט לצד",
-      "image": "/media/photo_2026-08-10_00-14-16.jpg"
+      "name": "שקט של בוקר",
+      "image": "media/g-fence-side.jpg"
+    },
+    {
+      "name": "חיוך של כלה",
+      "image": "media/g-palms-smile.jpg"
     }
   ]
 }
